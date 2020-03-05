@@ -1,0 +1,15 @@
+html   
+    title login page
+    link(rel="stylesheet",href="/css/mystyle.css",type="text/css")
+    script(src="/scripts/myscript.js")
+    body
+        h1#title Login ATN
+        div#diva
+            h2 Enter your Account
+            form(method="post",action="/HomePage")
+                p Username
+                input(type="text",name="Username")
+                p Password
+                input(type="text",name="Password")
+
+                input(type="submit" value="Login",onclick="Hi()")

@@ -11,13 +11,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 // trang mac dinh
 app.get("/", (req, res) => {
-    res.render('index');
+    res.render('loginpage');
 })
-app.get('/form', (req, res) => {
-    res.render('form');
-})
-app.post('/saveForm', (req, res) => {
-    const yourName = req.body.yourName;
-    res.render('confirm', { name: yourName })
+app.post('/HomePage', (req, res) => {
+    res.render('homepage');
 })
 var server = app.listen(port, function() {});

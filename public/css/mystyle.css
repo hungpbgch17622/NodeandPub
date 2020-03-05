@@ -1,3 +1,19 @@
-.redText {
-    color: red;
+#title {
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+}
+
+#diva {
+    margin: auto;
+    width: 60%;
+    border: 3px solid purple;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background: #0d1521;
+    font-family: 'Times New Roman', Times, serif;
+    color: #989898;
 }
